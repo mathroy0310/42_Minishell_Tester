@@ -1,0 +1,194 @@
+echo hello world
+echo "hello world"
+echo 'hello world'
+echo hello'world'
+echo hello""world
+echo ''
+echo "$PWD"
+echo '$PWD'
+echo "aspas ->'"
+echo "aspas -> ' "
+echo 'aspas ->"'
+echo 'aspas -> " '
+echo "exit_code ->$? user ->$USER home -> $HOME"
+echo 'exit_code ->$? user ->$USER home -> $HOME'
+echo $?
+echo $?HELLO
+echo test tout
+echo test      tout
+echo echo
+echo rhobebou
+echo stop barking
+echo "bonjour"
+echo bonjour
+echo 'bonjour'
+"echo -n bonjour"
+"echo -nn bonjour"
+"echo -n -n -n bonjour"
+"echo "-n" bonjour"
+echo -n"-n" bonjour
+'echo "-nnnn" bonjour'
+echo "-n -n -n"-n bonjour
+echo "-n '-n'" bonjour
+echo "~"
+echo '~'
+echo ~123
+echo 123~
+echo $USER
+echo "$USER"
+echo "'$USER'"
+echo " '$USER' "
+echo text"$USER"
+echo text"'$USER'" ' $USER '
+echo "text"   "$USER"    "$USER"
+echo '              $USER          '
+echo               text "$USER"            "$USER"text
+echo ''''''''''$USER''''''''''
+echo """"""""$USER""""""""
+echo $USER'$USER'text oui oui     oui  oui $USER oui      $USER''
+"echo $USER '' $USER $USER '' $USER '' $USER -n $USER"
+echo ' \' ' \'
+echo "$USER""$USER""$USER"
+echo text"$USER"test
+echo '$USER' "$USER" "text \' text"
+echo '$USER'
+echo $USER " "
+echo "$USER""Users/$USER/test_files/file""'$USER'"'$USER'
+echo "$USER$USER$USER"
+echo '$USER'"$USER"'$USER'
+echo '"$USER"''$USER'"""$USER"
+echo " $USER  "'$PWD'
+echo " $USER  \$ "'$PWD'
+echo $USER=4
+echo $USER=thallard
+echo $USER
+echo $?
+echo $USER213
+echo $USER $USER9999 $USER8888 $USER7777
+echo $USER $USER9999 $USER8888 $USER7777 "$USER"
+echo "$USER=12$USER"
+echo $PWD/test_files/file
+echo "$PWD/test_files/file"
+echo "text" "text$USER" ... "$USER"
+pwd
+pwd oi
+export | grep "SHLVL"
+export | grep "OLDPWD"
+export $?
+export ""=""
+export ''=''
+export "="="="
+export '='='='
+export TE-ST=100
+export TEST-=100
+export _TEST=100
+export TES.T=123
+export TES+T=123
+export TES=T=123
+export TES}T=123
+export TES{T=123
+export TES-T=123
+export -TEST=123
+export _TEST=123
+export TES_T=123
+export TEST_=123
+export TE*ST=123
+export TES#T=123
+export TES@T=123
+export =============123
+export +++++++=123
+export ________=123
+export cd
+export export
+export unset
+export hello
+export HELLO=123
+export A-
+export HELLO=123 A
+export HELLO="123 A-"
+export hello world
+export HELLO-=123
+export =
+export 123
+unset doesntexist
+unset TES\\\\T
+unset TES.T
+unset TES+T
+unset TES=T   !!!
+unset TES}T
+unset TES{T
+unset TES-T
+unset _TEST
+unset TES_T
+unset TEST_
+unset TE*ST
+unset TES#T
+unset TES@T
+unset TES!T
+unset TES$?T
+unset ============
+unset +++++++
+unset ________
+unset export
+unset echo
+unset pwd
+unset cd
+unset unset
+unset sudo
+unset TES^T
+unset TES!T
+unset
+unset HELLO
+unset HELLO1 HELLO2
+unset HOME
+unset PATH
+unset SHELL
+cd $PWD
+cd $PWD hi 
+cd 123123
+cd . 
+cd /Users 
+cd ./././ 
+cd "$PWD/file_tests" 
+cd "doesntexist" 
+cd "doesntexist" 2>/dev/null 
+cd "wtf" 2>/dev/null 
+cd ?
+cd +
+cd _
+cd woof
+cd bark bark
+cd $PWD/file_tests 
+cd $OLDPWD/something 
+exit 123
+exit 298
+exit +100
+exit "+100"
+exit +"100"
+exit -100
+exit "-100"
+exit -"100"
+exit hello
+exit 42 world
+exit 0
+exit 1
+exit -1
+exit 2147483647
+exit 2147483648
+exit -2147483648
+exit -2147483649
+exit 9223372036854775807
+exit 9223372036854775808
+exit -9223372036854775808
+exit -9223372036854775809
+exit -- 42
+exit "        42           "
+exit -- -- 42
+exit --42
+exit ++42
+exit 42 42
+exit a
+exit 1a
+exit +
+exit -
+exit "          "

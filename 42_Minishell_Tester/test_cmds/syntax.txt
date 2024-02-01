@@ -1,0 +1,78 @@
+|
+| echo oi
+| |
+| $
+| >
+>
+>>
+>>>
+<
+<<
+echo hi <
+cat    <| ls
+echo hi | >
+echo hi | > >>
+echo hi | < |
+echo hi |   |
+echo hi |  "|"
+>>>>
+<
+< >
+| echo
+echo | |
+cat < >
+echo '
+echo "
+echo ""$?""
+echo $?"42"
+echo ''$?''"42"
+echo '"$USER"'
+echo "'$USER'"
+echo ""'$USER'""
+echo '"'$USER'"'
+echo "''$USER''"
+echo "'"'$USER'"'"
+echo '"'"$USER"'"'
+echo "$ "
+echo hi >./outfiles/outfile01 | echo bye
+echo <123 <456 hi | echo 42
+echo '$='
+echo '$ '
+echo "$?"
+echo '$?'
+echo "'$?'"
+echo "cat lol.c | cat > lol.c"
+echo "cat lol.c '|' cat > lol.c"
+echo '$USER' "$USER" "text  ' text"
+echo $USER =intergalaktikus miaf*szomez
+echo -n"-n" bonjour
+echo "'$USER'"
+echo " '$USER' "
+echo text"$USER"
+echo text"'$USER'" ' $USER '
+echo "text"   "$USER"    "$USER"
+echo '              $USER          '
+echo ''''''''''$USER''''''''''
+echo """"""""$USER""""""""
+echo '""""""""$USER""""""""'
+echo ""'""""""$USER""""""'""
+echo """"""""'$USER'""""""""
+echo """""""'"$USER"'"""""""
+echo """"""'""$USER""'""""""
+echo ""'""'""""$USER""""'""'""
+echo '""'""'""""$USER""""'""'""'
+echo
+echo ''
+echo ""
+echo echo
+echo test1
+echo 'test1'
+echo "echo hallo"
+echo echo"1"
+echo "test1 test2"
+echo "test1  test2" test3
+echo " test1 test2 " 'test3 '
+echo "'totally logical'"
+echo 'totally logical'
+echo ''totally logical''
+echo ""'totally logical'""
